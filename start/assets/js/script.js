@@ -10,11 +10,20 @@ REGOLE
    Crea due const "nome" e "cognome".
    Stampa con un template literal: "Ciao, mi chiamo Mario Rossi."
 */
-const name='Charlie'
-const surnName= 'Cenni'
+const name='Charlie';
+const surnName= 'Cenni';
 console.log(`Ciao mi chiamo ${name} ${surnName}`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let num1 = 12;
+let num2 =4;
+
+console .log(`${a}+${b}=${(a+b)}`);
+console.log(`${a}-${b}=${(a-b)}`);
+console.log(`${a}*${b}=${(a*b)}`);
+console.log(`${a}/${b}=${(a/b)}`);
+console.log(`${a}%${b}=${(a%b)}`);
+console.log(`${a}**${b}=${(a**b)}`);
 
 /* ESERCIZIO 2 — Calcolatrice base
    Due numeri "a" e "b".
@@ -41,20 +50,21 @@ console.log(a**b);
 /* SCRIVI QUI LA TUA RISPOSTA */
 const birthYear =1998
 const yearNow =2026
-console.log(`Oggi hai  ${yearNow-birthYear} `)
-console.log(`Tra 10 anni avrai ${yearNow-birthYear+10}`)
-console.log(`Quanti anni avevi 5 anni fa`${yearNow-birthYear-5})
+console.log(`Oggi hai:  ${yearNow-birthYear} `)
+console.log(`Tra 10 anni avrai: ${yearNow-birthYear+10}`)
+console.log(`Quanti anni avevi 5 anni fa: ${yearNow-birthYear-5}`)
 
 /* ESERCIZIO 4 — Maggiorenne?
    Variabile "eta".
    Calcola "maggiorenne" come "eta >= 18".
    Stampa: "Età: 25 — Maggiorenne: true"
 */
-let age=25;
+let age;
+age =16;
 const adult = age >= 18;
-console.log()
+console.log(`Age:${age} - Adult ${adult}`);
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOS$TA */
 
 /* ESERCIZIO 5 — Tipo del valore
    Cinque variabili: una string, una number, una boolean, una null, una undefined.
@@ -64,8 +74,8 @@ console.log()
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let prima = 'Charlie'
-let seconda = 5
-let terza = 25>=18
+let seconda = 5;
+let terza = true;
 let quattro = null
 let cinque = 
 
